@@ -1,0 +1,22 @@
+cat <<EOF > .gitignore
+# Ignore secrets
+.env
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore logs
+*.log
+
+# Ignore archive files
+*.tar.gz
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Go cache
+go.sum
+EOF
