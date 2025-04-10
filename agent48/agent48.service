@@ -1,0 +1,14 @@
+[Unit]
+Description=Agent48 Resolver
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/agent48
+WorkingDirectory=/home/ubuntu/hitcloud/agent48
+EnvironmentFile=/home/ubuntu/hitcloud/agent48/.env
+Restart=always
+User=root
+# OR add CAP_DAC_OVERRIDE for delete perms
+
+[Install]
+WantedBy=multi-user.target
