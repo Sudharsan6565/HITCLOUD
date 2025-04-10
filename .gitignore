@@ -20,3 +20,4 @@ __pycache__/
 # Go cache
 go.sum
 EOF
+.env
