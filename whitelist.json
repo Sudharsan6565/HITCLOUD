@@ -1,0 +1,8 @@
+{
+    "whitelist": [
+        "/usr/bin/python3",
+        "/sbin/init",
+        "/usr/bin/containerd",
+        "/usr/bin/dockerd"
+    ]
+}[]
