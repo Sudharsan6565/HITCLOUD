@@ -84,7 +84,7 @@ go build -o agent47 main.go
 ./agent47
 ```
 
-> Deploy via Docker, ECS, Lambda, or bare metal. Agent registers and scans every 30s.
+> Deploy via Docker, ECS, Lambda, or bare metal. Agent registers and scans every 3s.
 
 ---
 
